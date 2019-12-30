@@ -13,12 +13,16 @@
 <body>
   <!-- Note that this only gets rendered once. -->
   <app-hello>
-    <p>app-hello</p>
+    <span slot="main">
+      <p>app-hello</p>
+    </span>
   </app-hello>
 
   <!-- Note that this contains one instance of "app-hello", but it is rendered twice. -->
   <app-hello-container>
-    <p>app-hello-container</p>
+    <span slot="main">
+      <p>app-hello-container</p>
+    </span>
   </app-hello-container>
 </body>
 </html>

@@ -1,7 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-hack-hello',
   templateUrl: './hello.component.html',
   styleUrls: ['./hello.component.css']
 })

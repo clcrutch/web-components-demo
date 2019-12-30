@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 
 @Component({
-  selector: 'app-hello-container',
   templateUrl: './hello-container.component.html',
-  styleUrls: ['./hello-container.component.css']
+  styleUrls: ['./hello-container.component.css'],
+  encapsulation: ViewEncapsulation.ShadowDom
 })
 export class HelloContainerComponent implements OnInit {
 
